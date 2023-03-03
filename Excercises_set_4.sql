@@ -95,6 +95,6 @@ LEFT JOIN Production.Product pSize ON m.UnitMeasureCode = pSize.SizeUnitMeasureC
 LEFT JOIN Production.Product pWeight ON m.UnitMeasureCode = pWeight.WeightUnitMeasureCode
 WHERE pSize.SizeUnitMeasureCode IS NULL AND pWeight.WeightUnitMeasureCode IS NULL
 
-
+--Temat wielokrotny join--
 
 
